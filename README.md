@@ -25,7 +25,8 @@ This repository contains a dataset with the extracted meta-analytic data and a J
 
 1.  [Pappa_et_al_EntireConflict.ipynb](https://github.com/ElisavetPappa/col-conflic-sv/blob/main/Pappa_et_al_EntireConflict.ipynb) - Jupyter notebook with reproducible analysis for 1964-2024
 2.  [Pappa_et_al_2014-2024.ipynb](https://github.com/ElisavetPappa/col-conflic-sv/blob/main/Pappa_et_al_2014-2024.ipynb) - Jupyter notebook with reproducible analysis for 2014-2024
-3.  [CNMH_Data.zip]() - data file tbc
+3.  [Output](https://github.com/ElisavetPappa/col-conflic-sv/tree/main/Output) - Directory with figures saved to story by the Jupyter Notebooks 
+4.  [CNMH_Data.zip]() - data file tbc
 
 ### Platform and package versions
 
