@@ -19,14 +19,14 @@ Analysis code and results for the study
 In preparation
 
 ### Archive contents
-This archive contains the [R](https://en.wikipedia.org/wiki/R_(programming_language)) code for the analysis reported in the above study. The code is presented as a [Jupyter notebook](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html) which are documents that combine both code and the output in a form that can be viewed online, but also re-run and the results reproduced when accompanied by the original dataset.
-
-This repository contains a dataset with the extracted meta-analytic data and a Jupyter notebook that reports the analysis and results
+This archive contains the [R](https://en.wikipedia.org/wiki/R_(programming_language)) code for the analyses reported in the above study. The code is presented as [Jupyter notebooks](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html) which are documents that combine both code and the output in a form that can be viewed online, but also re-run and the results reproduced when accompanied by the original dataset.
 
 1.  [Pappa_et_al_EntireConflict.ipynb](https://github.com/ElisavetPappa/col-conflic-sv/blob/main/Pappa_et_al_EntireConflict.ipynb) - Jupyter notebook with reproducible analysis for 1964-2024
 2.  [Pappa_et_al_2014-2024.ipynb](https://github.com/ElisavetPappa/col-conflic-sv/blob/main/Pappa_et_al_2014-2024.ipynb) - Jupyter notebook with reproducible analysis for 2014-2024
-3.  [Output](https://github.com/ElisavetPappa/col-conflic-sv/tree/main/Output) - Directory with figures saved to story by the Jupyter Notebooks 
-4.  [CNMH_Data.zip]() - data file tbc
+3.  [Output](https://github.com/ElisavetPappa/col-conflic-sv/tree/main/Output) - Directory with figures saved to storage by the Jupyter Notebooks 
+4.  [Data](https://github.com/ElisavetPappa/col-conflic-sv/tree/main/Data) - Directory with the open data used in these analyses
+
+The NCMH dataset used in the LGCP and Hawkes process model analyses is the open dataset from the Centro Nacional de Memoria Histórica which can be [accessed here](https://micrositios.centrodememoriahistorica.gov.co/observatorio/portal-de-datos/base-de-datos/). Because this data is updated monthly, we provide the files we used containing the exact data used in our study in the Data folder for reproducibility. This also contains open data for yearly population by municipio which is automatically downloaded and saved by the analysis code if it doesn't already exist using the [ColOpenData](https://epiverse-trace.github.io/ColOpenData/) package.
 
 ### Platform and package versions
 
