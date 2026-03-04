@@ -27,10 +27,11 @@ This archive contains the [R](https://en.wikipedia.org/wiki/R_(programming_langu
 2.  [Pappa_et_al_EntireConflict_ModelValidation.ipynb](https://github.com/ElisavetPappa/col-conflic-sv/blob/main/Pappa_et_al_EntireConflict_ModelValidation.ipynb) - Jupyter notebook with reproducible model validation analysis for 1964-2024
 3.  [Pappa_et_al_2014-2024.ipynb](https://github.com/ElisavetPappa/col-conflic-sv/blob/main/Pappa_et_al_2014-2024.ipynb) - Jupyter notebook with reproducible analysis for 2014-2024
 4.  [Pappa_et_al_2014-2024_ModelValidation.ipynb](https://github.com/ElisavetPappa/col-conflic-sv/blob/main/Pappa_et_al_2014-2024_ModelValidation.ipynb) - Jupyter notebook with reproducible model validation analysis for 2014-2024
-5.  [Output](https://github.com/ElisavetPappa/col-conflic-sv/tree/main/Output) - Directory with figures saved to storage by the Jupyter Notebooks 
-6.  [Data](https://github.com/ElisavetPappa/col-conflic-sv/tree/main/Data) - Directory with the open data used in these analyses
+5.  [Pappa_et_al_RUV_SV_Analysis.R](https://github.com/ElisavetPappa/col-conflict-sv/blob/main/Pappa_et_al_RUV_SV_Analysis.R) - Analysis code for Registro Único de Víctimas analysis
+6.  [Output](https://github.com/ElisavetPappa/col-conflic-sv/tree/main/Output) - Directory with figures saved to storage by the Jupyter Notebooks and RUV analysis code
+7.  [Data](https://github.com/ElisavetPappa/col-conflic-sv/tree/main/Data) - Directory with the open data used in these analyses (minus RUV analysis)
 
-The NCMH dataset used in the LGCP and Hawkes process model analyses is the open dataset from the Centro Nacional de Memoria Histórica which can be [accessed here](https://micrositios.centrodememoriahistorica.gov.co/observatorio/portal-de-datos/base-de-datos/). Because this data is updated monthly, we provide the files we used containing the exact data used in our study in the Data folder for reproducibility. This also contains open data for yearly population by municipio which is automatically downloaded and saved by the analysis code if it doesn't already exist using the [ColOpenData](https://epiverse-trace.github.io/ColOpenData/) package.
+The NCMH dataset used in the LGCP and Hawkes process model analyses is the open dataset from the Centro Nacional de Memoria Histórica which can be [accessed here](https://micrositios.centrodememoriahistorica.gov.co/observatorio/portal-de-datos/base-de-datos/). Because this data is updated monthly, we provide the files we used containing the exact data used in our study in the Data folder for reproducibility. This also contains open data for yearly population by municipio which is automatically downloaded and saved by the analysis code if it doesn't already exist using the [ColOpenData](https://epiverse-trace.github.io/ColOpenData/) package. The Registro Único de Víctimas data is not publicly available.
 
 ### Platform and package versions
 
